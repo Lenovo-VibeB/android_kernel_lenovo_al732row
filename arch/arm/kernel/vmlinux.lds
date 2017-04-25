@@ -1,7 +1,7 @@
 /*
  *
  * Automatically generated file; DO NOT EDIT.
- * Linux/arm 3.18.19 Kernel Configuration
+ * Linux/arm 3.18.20 Kernel Configuration
  *
  */
 /*
