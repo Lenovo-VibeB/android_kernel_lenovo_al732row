@@ -69,11 +69,11 @@
 
 #ifdef TPD_PROXIMITY
 //#include <linux/hwmsensor.h>
-#include <hwmsensor.h>
+#include "hwmsensor.h"
 //#include <linux/hwmsen_dev.h>
-#include <hwmsen_dev.h>
+#include "hwmsen_dev.h"
 //#include <linux/sensors_io.h>
-#include <sensors_io.h>
+#include "sensors_io.h"
 #endif
 
 #ifdef CONFIG_MTK_SENSOR_HUB_SUPPORT
