@@ -4799,16 +4799,7 @@ do_more:
 
 	if ((flags & EXT4_FREE_BLOCKS_METADATA) && ext4_handle_valid(handle)) {
 		struct ext4_free_data *new_entry;
-<<<<<<< HEAD
-		/*
-		 * blocks being freed are metadata. these blocks shouldn't
-		 * be used until this transaction is committed
-		 */
-	retry:
-		new_entry = kmem_cache_alloc(ext4_free_data_cachep, GFP_NOFS);
-		if (!new_entry) {
-=======
->>>>>>> c0e32d9... Linux 3.18.20
+
 			/*
 		 * We use __GFP_NOFAIL because ext4_free_blocks() is not allowed
 		 * to fail.
