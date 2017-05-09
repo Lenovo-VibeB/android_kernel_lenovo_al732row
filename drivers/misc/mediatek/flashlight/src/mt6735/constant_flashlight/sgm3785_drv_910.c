@@ -7,7 +7,7 @@
 //#include <mach/mt_gpio.h>
 #include <linux/gpio.h>
 #include <linux/delay.h>
-#include <sgm3785_drv_910.h>
+#include "sgm3785_drv_910.h"
 #include "kd_flashlight.h"
 #include "kd_camera_typedef.h"
 #include "mt_pwm.h"

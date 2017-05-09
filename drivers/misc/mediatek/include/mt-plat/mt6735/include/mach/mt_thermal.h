@@ -392,3 +392,4 @@ extern int mtk_gpufreq_register(struct mt_gpufreq_power_table_info *freqs, int n
 extern int get_target_tj(void);
 
 #endif
+
